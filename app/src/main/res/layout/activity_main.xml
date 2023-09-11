@@ -38,18 +38,25 @@
         android:layout_height="wrap_content"
         android:hint="Password"
         android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/tvForgetPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ForgetPassword"
+        android:textSize="30sp"
+        android:layout_gravity="end"/>
     <Button
         android:id="@+id/btnLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Login"
         android:textSize="30sp"
-        android:layout_gravity="end"/>
-    <EditText
-        android:id="@+id/tvAlreadyHaveAccount"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/tvSingup"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="AlreadyHaveAccount"
+        android:text="Youdon'thaveAccount'"
         android:textSize="30sp"
         android:gravity="center"/>
 
